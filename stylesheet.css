@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-Black.woff2') format('woff2'),
+        url('MaipoSans-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-Bold.woff2') format('woff2'),
+        url('MaipoSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-BlackItalic.woff2') format('woff2'),
+        url('MaipoSans-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-BoldItalic.woff2') format('woff2'),
+        url('MaipoSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans Book';
+    src: url('MaipoSans-Book.woff2') format('woff2'),
+        url('MaipoSans-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans Book';
+    src: url('MaipoSans-BookItalic.woff2') format('woff2'),
+        url('MaipoSans-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-Heavy.woff2') format('woff2'),
+        url('MaipoSans-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-HeavyItalic.woff2') format('woff2'),
+        url('MaipoSans-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-Light.woff2') format('woff2'),
+        url('MaipoSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-LightItalic.woff2') format('woff2'),
+        url('MaipoSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-Regular.woff2') format('woff2'),
+        url('MaipoSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-RegularItalic.woff2') format('woff2'),
+        url('MaipoSans-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-SemiBold.woff2') format('woff2'),
+        url('MaipoSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-SemiBoldItalic.woff2') format('woff2'),
+        url('MaipoSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-Thin.woff2') format('woff2'),
+        url('MaipoSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-ThinItalic.woff2') format('woff2'),
+        url('MaipoSans-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-UltraBold.woff2') format('woff2'),
+        url('MaipoSans-UltraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-UltraBoldItalic.woff2') format('woff2'),
+        url('MaipoSans-UltraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-UltraLight.woff2') format('woff2'),
+        url('MaipoSans-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maipo Sans';
+    src: url('MaipoSans-UltraLightItalic.woff2') format('woff2'),
+        url('MaipoSans-UltraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
