@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Clase Abierta - Cursos 2023</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="____________________________" />
+    <script src="Clase_abierta_files/header-attrs/header-attrs.js"></script>
+    <link href="Clase_abierta_files/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
+    <script src="Clase_abierta_files/xaringanExtra-progressBar/progress-bar.js"></script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x9bc9fd315434bbe979cfd9a30c9295a","expires":1}</script>
+    <script src="Clase_abierta_files/himalaya/himalaya.js"></script>
+    <script src="Clase_abierta_files/js-cookie/js.cookie.js"></script>
+    <link href="Clase_abierta_files/editable/editable.css" rel="stylesheet" />
+    <script src="Clase_abierta_files/editable/editable.js"></script>
+    <script src="Clase_abierta_files/clipboard/clipboard.min.js"></script>
+    <link href="Clase_abierta_files/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
+    <script src="Clase_abierta_files/xaringanExtra-clipboard/xaringanExtra-clipboard.js"></script>
+    <script>window.xaringanExtraClipboard(null, {"button":"<i class=\"fa fa-clipboard\"><\/i>","success":"<i class=\"fa fa-check\" style=\"color: #90BE6D\"><\/i>","error":"<i class=\"fa fa-times-circle\" style=\"color: #F94144\"><\/i>"})</script>
+    <link href="Clase_abierta_files/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="Clase_abierta_files/font-awesome/css/v4-shims.css" rel="stylesheet" />
+    <link href="Clase_abierta_files/panelset/panelset.css" rel="stylesheet" />
+    <script src="Clase_abierta_files/panelset/panelset.js"></script>
+    <link rel="stylesheet" href="miscss.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Clase Abierta - Cursos 2023
+]
+.author[
+### ____________________________
+]
+.institute[
+### <p><img src="img/logosol.png" /></p>
+]
+.date[
+### 23-enero- 2023
+]
+
+---
+
+
+class: inverse, middle, center, hide-count
+
+.mi-titulo[Para comenzar]
+
+<style>.xe__progress-bar__container {
+  bottom:0;
+  opacity: 1;
+  position:absolute;
+  right:0;
+  left: 0;
+}
+.xe__progress-bar {
+  height: 0.25em;
+  background-color: #F1C40F;
+  width: calc(var(--slide-current) / var(--slide-total) * 100%);
+}
+.remark-visible .xe__progress-bar {
+  animation: xe__progress-bar__wipe 200ms forwards;
+  animation-timing-function: cubic-bezier(.86,0,.07,1);
+}
+@keyframes xe__progress-bar__wipe {
+  0% { width: calc(var(--slide-previous) / var(--slide-total) * 100%); }
+  100% { width: calc(var(--slide-current) / var(--slide-total) * 100%); }
+}</style>
+
+
+
+
+
+
+
+
+---
+
+class: inverse, middle, center, hide-count
+
+.mi-titulo[¿ De qué se trata esta clase abierta?]
+
+
+---
+
+class: inverse, middle, center, hide-count
+
+.mi-tcenter[
+
+&lt;svg viewBox="0 0 512 512" style="position:relative;display:inline-block;top:.1em;fill:red;height:1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"&gt;&lt;/path&gt;&lt;/svg&gt; Conocer a la Fundación SOL. 
+
+
+&lt;svg viewBox="0 0 576 512" style="position:relative;display:inline-block;top:.1em;fill:red;height:1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M571.31 193.94l-22.63-22.63c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31-28.9-28.9c5.63-21.31.36-44.9-16.35-61.61l-45.25-45.25c-62.48-62.48-163.79-62.48-226.28 0l90.51 45.25v18.75c0 16.97 6.74 33.25 18.75 45.25l49.14 49.14c16.71 16.71 40.3 21.98 61.61 16.35l28.9 28.9-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63l22.63 22.63c6.25 6.25 16.38 6.25 22.63 0l90.51-90.51c6.23-6.24 6.23-16.37-.02-22.62zm-286.72-15.2c-3.7-3.7-6.84-7.79-9.85-11.95L19.64 404.96c-25.57 23.88-26.26 64.19-1.53 88.93s65.05 24.05 88.93-1.53l238.13-255.07c-3.96-2.91-7.9-5.87-11.44-9.41l-49.14-49.14z"&gt;&lt;/path&gt;&lt;/svg&gt; Conocer los objetivos y contenidos de los cursos 2023.
+
+
+ &lt;svg viewBox="0 0 384 512" style="position:relative;display:inline-block;top:.1em;fill:red;height:1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M202.021 0C122.202 0 70.503 32.703 29.914 91.026c-7.363 10.58-5.093 25.086 5.178 32.874l43.138 32.709c10.373 7.865 25.132 6.026 33.253-4.148 25.049-31.381 43.63-49.449 82.757-49.449 30.764 0 68.816 19.799 68.816 49.631 0 22.552-18.617 34.134-48.993 51.164-35.423 19.86-82.299 44.576-82.299 106.405V320c0 13.255 10.745 24 24 24h72.471c13.255 0 24-10.745 24-24v-5.773c0-42.86 125.268-44.645 125.268-160.627C377.504 66.256 286.902 0 202.021 0zM192 373.459c-38.196 0-69.271 31.075-69.271 69.271 0 38.195 31.075 69.27 69.271 69.27s69.271-31.075 69.271-69.271-31.075-69.27-69.271-69.27z"&gt;&lt;/path&gt;&lt;/svg&gt; Resolver dudas sobre los cursos.
+]
+
+ 
+
+---
+
+
+class: inverse, middle, center, hide-count
+
+.mi-titulo[ Fundación SOL]
+
+
+---
+
+.mi-texto[
+Somos un centro de investigación y acción que busca generar conocimiento crítico y
+actividades para potenciar las luchas sociales y sindicales. Desde el año 2007, realizamos
+diversas investigaciones  **orientadas a generar, difundir y aplicar conocimientos en torno
+al mundo del trabajo, feminismos y economía**. Nuestra labor es por la disputa de ideas en
+el espacio público, contribuyendo a levantar alternativas populares para el buen vivir.
+]
+
+
+
+---
+class: center
+background-image: url(img/fsol_1.png)
+background-size: 65%
+background-position: center
+
+.bold-left[[Memoria anual Fundación SOL](https://www.fundacionsol.cl/quienes-somos#nav_tabs_content_1601315543158_18) ]
+---
+class: inverse, middle, center, hide-count
+.mi-titulo[Objetivos y contenidos de los cursos 2023]
+
+---
+
+# A partir de marzo
+
+--
+
+.mi-texto[ 
+* Automatización de visualizaciones para el fortalecimiento de las organizaciones
+ ]
+--
+.mi-texto[
+* Estadística descriptiva y visualización de información utilizando el lenguaje de programación R.]
+
+--
+.mi-texto[
+* Economía política para el fortalecimiento sindical. ]
+
+--
+
+
+&lt;img src="img/thk.gif" width="40%" /&gt;
+
+---
+class: middle, center, inverse, hide-count
+
+.mi-titulo[Economía política para el fortalecimiento sindical]
+
+---
+
+# Orientado a personas sindicalizadas
+
+--
+
+.pull-left[
+Curso orientado a personas que formen parte de organizaciones sindicales y deseen profundizar en tópicos teóricos y prácticos de la economía. ]
+
+
+--
+.pull-left[
+.bold[Se enfoca en una comprensión crítica de temas ahora tan cotidianos como IPC, PIB, inflación, crecimiento, entre otros. ]  ]
+
+--
+.pull-left[
+.bold2[Horario:] Clases en vivo una vez por semana de 90 minutos, desde las 18:30. Comenzando el viernes 10 de marzo. ]
+
+--
+.pull-left[
+.bold2[Metodología: ] Uso de diapositivas, vídeos y discusión colectiva de temas contigentes relacionado con los contenidos.]
+
+---
+.bold3[Clases]
+
+.mi-texto[ 
+1. Conceptos introductorios de estadística
+2. Principales corrientes de la teoría económica	
+3. Breve historia del sindicalismo en Chile	
+4. Fuentes abiertas de información	
+5. ¿Por qué es necesario aprender economía?
+6. Salario mínimo y pensiones
+7. Trabajo y salud
+8. ¿Qué es y como podemos entender el presupuesto público?
+9. Movimientos anti-sistémicos
+10. Mitos y realidades sistema de AFP
+11. Principales estadísticas de empleo en Chile]
+
+--
+
+&lt;img src="img/gifaton-galicia.gif" width="40%" /&gt;
+
+
+--
+
+
+&lt;img src="img/statistics.gif" width="30%" /&gt;
+
+
+---
+class: inverse, middle, center, hide-count
+
+.mi-titulo[Automatización de visualizaciones para el fortalecimiento de las organizaciones]
+
+---
+# Para aprender a generar reportes y *dashboard* usando R
+
+--
+
+.pull-left[
+Curso orientado a personas que forman parte de organizaciones sociales o sindicales y desean crear visualizaciones de información para mejorar procesos internos o conocer información externa.
+
+.bold[No requiere conocimientos avanzados de programación. ]
+]
+
+
+--
+.pull-left[
+.bold2[Horario:] Días lunes del 6 de marzo en adelante
+ 18:30 a 20:30 horas - online ]
+
+--
+.pull-left[
+.bold2[Metodología: ] Uso de diapositivas y trabajo de código en el programa R. Considera dos clases taller con temas propuestos por estudiantes.]
+
+---
+.bold3[Clases]
+
+.mi-texto[ 
+1.  Conceptos introductorios de estadística.
+2.  Introducción a **R**.
+3.  Carga de datos y análisis exploratorio inicial en **R**. 
+4.  Flujo de trabajo en **R**.
+5.  ¿Por qué es importante la visualización de la información? 
+6.  Elaboración de un *dashboard* estático I
+7.  Elaboración de un *dashboard* estático II
+8.  Elaboración de una aplicación para la visualización de información con **Shiny**.
+9.  Elaboración y envío de reportes mediante el uso de técnicas de programación.
+10. Taller de aplicación I y II.]
+
+--
+
+&lt;img src="img/news-crowd.gif" width="35%" /&gt;
+
+--
+
+&lt;img src="img/mood-typing.gif" width="35%" /&gt;
+
+
+---
+class: inverse, middle, center, hide-count
+
+.mi-titulo[Estadística descriptiva y visualización de información utilizando el lenguaje de programación R]
+
+---
+
+# Para aprender y reforzar lo básico de estadística utilizando herramientas de R
+--
+
+.pull-left[
+Curso orientado a personas que desean fortalecer sus conocimientos en cuanto a la Estadística descriptiva.
+
+.bold[Este curso considera un nivel básico, por lo que es ideal para personas que deseen aprender bases estadísticas aunque no hayan tomado cursos del tema anteriormente ]
+]
+
+--
+.pull-left[
+.bold2[Horario:] Días miércoles desde el 8 de marzo al 17 de mayo 
+ 18:30 a 20:30 horas - online ]
+
+--
+.pull-left[
+.bold2[Metodología:] Uso de diapositivas y trabajo de código en el programa R. Considera dos clases taller con temas propuestos por estudiantes.]
+
+---
+.bold3[Clases]
+
+.mi-texto[ 
+1.  Conceptos introductorios de estadística.
+2. Introducción a **R**.
+3. Carga de datos y análisis exploratorio inicial en **R**. 
+4. Flujo de trabajo en **R**.
+5. Estructura de datos y análisis descriptivo de la información  en **R**.
+6. Estadística descriptiva univariada.
+7. Representación gráfica de la información.
+8. Herramientas para el análisis de datos.
+9. Parametrización de reportes descriptivos con Rmarkdown.
+10. Taller de aplicación I y II.]
+
+--
+
+&lt;img src="img/data.gif" width="25%" /&gt;
+
+--
+
+&lt;img src="img/happy-programmer-happy-coder.gif" width="35%" /&gt;
+
+
+---
+.mi-titulo[Bibliografía principal]
+
+- [**R for Data Science**](https://r4ds.had.co.nz/) de Hadley Wickham &amp; Garret Grolemud. ([en español ](https://es.r4ds.hadley.nz/))
+
+- [**R para visualización de datos**](https://rdataviz.luzfrias.com/) de Luz Frías
+
+- **The visual display of quantitative information** - Edward R. Tufte 
+- **Introduction to statistics and data analysis** - With excercices,  solutions and aplications in R.  - Christian Heuman &amp; Michael Schomaker. 
+
+- [**R Markdown: The Definitive Guide**](https://bookdown.org/yihui/rmarkdown/) - Yihui Xie, J. J. Allaire &amp; Garrett Grolemund
+
+- **Economía para el 99% de la población** - Ha-Joon Chang
+
+- **Informe Mensual de la Calidad del Empleo (IMCE)** - Fundación SOL
+- **AFP para quién, Dónde se invierten los fondos de pensiones que administran las AFP** - Fundación SOL
+
+---
+class: inverse, center, middle, hide-count
+
+.mi-titulo[Resolver dudas sobre los cursos]
+
+
+
+---
+class: inverse, center, middle, hide-count
+
+.mi-titulo[Trabajo con R]
+
+
+---
+
+<style>.panelset{--panel-tab-font-family: Maipo Sans;}</style><style>.panelset{--panel-tab-active-foreground: #E5460F;--panel-tab-hover-foreground: #d22;--panel-tab-font-family: Maipo Sans;}</style>
+
+.panelset[
+.panel[.panel-name[R Código]
+
+```r
+*# A continuación se utiliza la base de datos `Orange` que viene en R
+
+*library(ggplot2) #Libreria para diseñar gráficos
+
+  ggplot(Orange) + # Función para definir un 'lienzo'
+  aes(x = age, y = circumference, colour = Tree) + # Para definir esteticas
+  geom_point() + # Dibujar puntos en el gráfico 
+  geom_line() + # Unir puntos con lineas
+  guides(colour = "none") + # Quitar las leyendas
+  theme_bw() # Definir Tema
+```
+]
+.panel[.panel-name[Gráfico]
+
+![](Clase_abierta_files/figure-html/oplot-1.png)
+]
+
+.panel[.panel-name[Conclusión]
+
+.mi-texto[Según el gráfico, mientras más edad tienen las naranjas mayor es su circunferencia. Esto ocurre en todos los tipos de árbol.]
+
+]
+]
+
+---
+.panelset.sideways[
+
+
+
+
+.panel[.panel-name[Código para generar un gráfico]
+
+```r
+# A continuación se utiliza la base de datos `Orange` que viene en R 
+
+library(ggplot2) #Libreria para diseñar gráficos
+
+  ggplot(Orange) + # Función para definir un 'lienzo'
+  aes(x = age, y = circumference, colour = Tree) + # Para definir estéticas
+  geom_point() + # Dibujar puntos en el gráfico
+  geom_line() + # Unir puntos con lineas
+  guides(colour = "none") + # Quitar las leyendas
+  theme_bw() # Definir Tema
+```
+
+
+
+]
+
+.panel[.panel-name[Gráfico de árboles]
+
+![](Clase_abierta_files/figure-html/unnamed-chunk-10-1.png)&lt;!-- --&gt;
+
+]
+
+
+.panel[.panel-name[Conclusión]
+
+.mi-texto[Según el gráfico, mientras más edad tienen las naranjas mayor es su circunferencia. Esto ocurre en todos los tipos de árbol.]
+
+]
+
+
+]
+
+
+
+---
+&lt;div class="panelset"&gt;
+  &lt;div class="panel"&gt;
+    &lt;div class="panel-name"&gt; ¿Cómo participar?&lt;/div&gt;
+     &lt;p class = "bold2"&gt;
+     Debes Inscribirte  &lt;a href="http://fundacionsol.cl/survey/start/0c62c48b-21b4-4b80-b24c-3fbe478aca6d"&gt;haciendo click aquí&lt;/a&gt;&lt;/p&gt;
+      &lt;p class="mi-texto"&gt; 
+     Todos los cursos consideran los siguiente: 
+     &lt;br&gt;&lt;/br&gt;
+     - Acceso a repositorio con bibliografía y material 
+     de apoyo para clases.  &lt;/p&gt; 
+       &lt;p class="mi-texto"&gt;- Clases una vez por semana, durante 11 semanas.&lt;/p&gt;
+       &lt;p class="mi-texto"&gt;- Cápsulas de 30 minutos semanales como apoyo del contenido de clases. &lt;/p&gt;
+      &lt;p class="mi-texto"&gt; - Respuesta de consultas en diferido
+vía correo electrónico.&lt;/p&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="panel"&gt;
+    &lt;div class="panel-name"&gt;¿Cuál es el costo?&lt;/div&gt;
+    
+   &lt;p class="mi-texto"&gt; Pueden participar todas las personas que formen parte de la "Red de Donantes" de la Fundación SOL.  Se destinarán 15 becas de 100% del costo para donantes mensuales.  &lt;/p&gt;
+
+&lt;p class="mi-texto"&gt; Aquellas personas que no sean donantes mensuales, o que no hayan alcanzado una de las 15 becas, podrán acceder a cualquier curso por primera vez, con un aporte sugerido de $80.000. &lt;/p&gt;
+
+&lt;p class="mi-texto"&gt; Si aún no eres donante, inscríbete en 
+www.fundacionsol.cl/dona-ahora  
+y selecciona aporte mensual.&lt;/p&gt;
+
+&lt;p class="mi-texto"&gt; Los cupos para los cursos son limitados.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+---
+class: inverse, center, bottom, hide-count
+
+background-image: url(img/logosol.png)
+background-size: cover;  
+background-position: center;
+background-repeat: no-repeat;
+
+.bold[Coordinación de los cursos:
+Recaredo Gálvez Carrasco - recaredo.galvez@fundacionsol.cl]
+
+.pie[www.fundacionsol.cl] 
+
+---
+class: image-sidebar-right hide-count
+background-image:url("img/logo_rds.png")
+background-size: 400px 401px
+background-position: right
+
+
+&lt;div class="remark-slide-scaler" style="width: 1210px; height: 681px; transform: scale(0.664463); left: 0px; top: 444.25px;"&gt;
+  &lt;div class="remark-slide"&gt;&lt;div class="remark-slide-content image-sidebar-right hljs-github"&gt;
+    &lt;h1 id="redSOL"&gt;Esta es una actividad de la red de Donantes SOL&lt;/h1&gt;
+    &lt;p&gt; Con tu aporte analizamos, revelamos y proponemos.&lt;/p&gt;
+    &lt;div class="remark-slide-number"&gt;3&lt;/div&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": true,
+"slideNumberFormat": "%current%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
